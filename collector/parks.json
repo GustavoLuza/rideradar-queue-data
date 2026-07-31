@@ -1,0 +1,13 @@
+{
+  "parks": [
+    {"id": 6, "name": "Magic Kingdom", "brand": "Disney"},
+    {"id": 5, "name": "Epcot", "brand": "Disney"},
+    {"id": 7, "name": "Disney's Hollywood Studios", "brand": "Disney"},
+    {"id": 8, "name": "Disney's Animal Kingdom", "brand": "Disney"},
+    {"id": 64, "name": "Islands of Adventure", "brand": "Universal"},
+    {"id": 65, "name": "Universal Studios Florida", "brand": "Universal"},
+    {"id": 334, "name": "Epic Universe", "brand": "Universal"},
+    {"id": 21, "name": "SeaWorld Orlando", "brand": "SeaWorld"},
+    {"id": 24, "name": "Busch Gardens Tampa", "brand": "Busch Gardens"}
+  ]
+}
