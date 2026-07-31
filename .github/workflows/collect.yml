@@ -30,7 +30,14 @@ jobs:
           git add data/
           if ! git diff --cached --quiet; then
             git commit -m "data: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-            git push
+            # checkout pode estar em SHA velho (ex: re-run de execução antiga) --
+            # sincroniza com o main atual antes de empurrar, tentando algumas vezes
+            # caso outra execução concorrente empurre ao mesmo tempo.
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main && git push && break
+              echo "push falhou (tentativa $i), tentando de novo..."
+              sleep 5
+            done
           else
             echo "no changes to commit"
           fi
