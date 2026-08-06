@@ -1,19 +1,21 @@
 name: Collect queue times
 
 on:
-  schedule:
-    # deslocado 2min do minuto redondo (:00, :05, ...) -- GitHub avisa que
-    # cron em horário "redondo" sofre mais fila/atraso por alta demanda
-    - cron: "2-59/5 * * * *"
+  # sem `schedule:` -- o disparo vem de um cron externo (cron-job.org) chamando
+  # workflow_dispatch de 5 em 5 min, que e muito mais pontual que o cron nativo
+  # do GitHub. Manter os dois ativos so gerava coleta duplicada. Ver secao 8 da
+  # DOCUMENTACAO.md.
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
 # sem bloco `concurrency`: o GitHub so mantem 1 run rodando + 1 na fila por
-# grupo, e cancelava o pendente sempre que o schedule atrasava e as execucoes
-# chegavam em rajada -- dai os buracos de 40min a 2h nos dados. As corridas de
-# push entre runs simultaneos ja sao tratadas pelo retry com rebase abaixo.
+# grupo e mata o pendente quando chega um terceiro. Como o dispatch e fixo a
+# cada 5 min, qualquer espera por runner acima disso virava cancelamento em
+# cadeia -- em 06/08/2026 isso custou buracos de ate 2h no historico. As
+# corridas de push entre runs simultaneos ja sao tratadas pelo retry com
+# rebase abaixo.
 
 jobs:
   collect:
