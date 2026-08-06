@@ -10,13 +10,16 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: collect-queue-times
-  cancel-in-progress: false
+# sem bloco `concurrency`: o GitHub so mantem 1 run rodando + 1 na fila por
+# grupo, e cancelava o pendente sempre que o schedule atrasava e as execucoes
+# chegavam em rajada -- dai os buracos de 40min a 2h nos dados. As corridas de
+# push entre runs simultaneos ja sao tratadas pelo retry com rebase abaixo.
 
 jobs:
   collect:
     runs-on: ubuntu-latest
+    # nenhum job travado deve segurar a coleta seguinte
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
 
