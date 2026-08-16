@@ -201912,3 +201912,47 @@ timestamp_utc,land,ride_id,ride_name,is_open,wait_time
 2026-08-16T13:25:21+00:00,Other,14928,Meet Jack Skellington and Sally at Mickey's Not-So-Scary Halloween Party,False,0
 2026-08-16T13:25:21+00:00,Other,14927,Meet Mickey Mouse and Minnie Mouse at Mickey's Not-So-Scary Halloween Party,False,0
 2026-08-16T13:25:21+00:00,,17526,Meet Festive Disney Pals at Mickey’s Not-So-Scary Halloween Party,False,0
+2026-08-16T13:30:23+00:00,Adventureland,1184,A Pirate's Adventure ~ Treasures of the Seven Seas,False,0
+2026-08-16T13:30:23+00:00,Adventureland,134,Jungle Cruise,True,30
+2026-08-16T13:30:23+00:00,Adventureland,137,Pirates of the Caribbean,False,0
+2026-08-16T13:30:23+00:00,Adventureland,355,Swiss Family Treehouse,True,5
+2026-08-16T13:30:23+00:00,Adventureland,141,The Magic Carpets of Aladdin,True,5
+2026-08-16T13:30:23+00:00,Adventureland,334,Walt Disney's Enchanted Tiki Room,True,10
+2026-08-16T13:30:23+00:00,Fantasyland,133,"it's a small world",True,5
+2026-08-16T13:30:23+00:00,Fantasyland,13764,Casey Jr. Splash 'N' Soak Station,True,0
+2026-08-16T13:30:23+00:00,Fantasyland,13763,Cinderella Castle,True,0
+2026-08-16T13:30:23+00:00,Fantasyland,132,Dumbo the Flying Elephant,True,10
+2026-08-16T13:30:23+00:00,Fantasyland,128,Enchanted Tales with Belle,False,0
+2026-08-16T13:30:23+00:00,Fantasyland,135,Mad Tea Party,True,5
+2026-08-16T13:30:23+00:00,Fantasyland,147,Meet Ariel at Her Grotto,False,0
+2026-08-16T13:30:23+00:00,Fantasyland,6700,Meet Cinderella and a Visiting Princess at Princess Fairytale Hall,True,10
+2026-08-16T13:30:23+00:00,Fantasyland,144,Meet Daring Disney Pals as Circus Stars at Pete's Silly Sideshow,False,0
+2026-08-16T13:30:23+00:00,Fantasyland,145,Meet Dashing Disney Pals as Circus Stars at Pete's Silly Sideshow,False,0
+2026-08-16T13:30:23+00:00,Fantasyland,6699,Meet Princess Tiana and a Visiting Princess at Princess Fairytale Hall,True,10
+2026-08-16T13:30:23+00:00,Fantasyland,171,Mickey's PhilharMagic,True,15
+2026-08-16T13:30:23+00:00,Fantasyland,136,Peter Pan's Flight,True,35
+2026-08-16T13:30:23+00:00,Fantasyland,161,Prince Charming Regal Carrousel,True,5
+2026-08-16T13:30:23+00:00,Fantasyland,129,Seven Dwarfs Mine Train,True,50
+2026-08-16T13:30:23+00:00,Fantasyland,126,The Barnstormer,True,10
+2026-08-16T13:30:23+00:00,Fantasyland,142,The Many Adventures of Winnie the Pooh,True,20
+2026-08-16T13:30:23+00:00,Fantasyland,127,Under the Sea - Journey of The Little Mermaid,True,5
+2026-08-16T13:30:23+00:00,Fantasyland,1181,Walt Disney World Railroad - Fantasyland,True,0
+2026-08-16T13:30:23+00:00,Frontierland,130,Big Thunder Mountain Railroad,True,20
+2026-08-16T13:30:23+00:00,Frontierland,1214,Country Bear Musical Jamboree,True,10
+2026-08-16T13:30:23+00:00,Frontierland,13630,Tiana's Bayou Adventure,True,10
+2026-08-16T13:30:23+00:00,Liberty Square,140,Haunted Mansion,True,13
+2026-08-16T13:30:23+00:00,Liberty Square,356,The Hall of Presidents,False,0
+2026-08-16T13:30:23+00:00,Main Street; U.S.A.,1188,Main Street Vehicles,True,0
+2026-08-16T13:30:23+00:00,Main Street; U.S.A.,146,Meet Mickey at Town Square Theater,True,15
+2026-08-16T13:30:23+00:00,Main Street; U.S.A.,1189,Walt Disney World Railroad - Main Street; U.S.A.,True,0
+2026-08-16T13:30:23+00:00,Tomorrowland,248,Astro Orbiter,True,5
+2026-08-16T13:30:23+00:00,Tomorrowland,131,Buzz Lightyear’s Space Ranger Spin,True,30
+2026-08-16T13:30:23+00:00,Tomorrowland,125,Monsters; Inc. Laugh Floor,True,10
+2026-08-16T13:30:23+00:00,Tomorrowland,138,Space Mountain,True,50
+2026-08-16T13:30:23+00:00,Tomorrowland,143,Tomorrowland Speedway,True,20
+2026-08-16T13:30:23+00:00,Tomorrowland,1190,Tomorrowland Transit Authority PeopleMover,True,5
+2026-08-16T13:30:23+00:00,Tomorrowland,11527,TRON Lightcycle / Run,True,65
+2026-08-16T13:30:23+00:00,Tomorrowland,457,Walt Disney's Carousel of Progress,False,0
+2026-08-16T13:30:23+00:00,Other,14928,Meet Jack Skellington and Sally at Mickey's Not-So-Scary Halloween Party,False,0
+2026-08-16T13:30:23+00:00,Other,14927,Meet Mickey Mouse and Minnie Mouse at Mickey's Not-So-Scary Halloween Party,False,0
+2026-08-16T13:30:23+00:00,,17526,Meet Festive Disney Pals at Mickey’s Not-So-Scary Halloween Party,False,0
