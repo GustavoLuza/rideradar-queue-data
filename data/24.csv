@@ -240295,3 +240295,26 @@ timestamp_utc,land,ride_id,ride_name,is_open,wait_time
 2026-09-04T22:35:22+00:00,Stanleyville,1532,Serengeti Express (Stanleyville Station),False,0
 2026-09-04T22:35:22+00:00,Stanleyville,7310,Tigris,True,5
 2026-09-04T22:35:22+00:00,,17525,SheiKra,True,5
+2026-09-04T22:40:23+00:00,Congo,1510,Congo River Rapids,True,5
+2026-09-04T22:40:23+00:00,Congo,10532,Ubanga-Banga Bumper Cars,False,0
+2026-09-04T22:40:23+00:00,Crown Colony Plaza,6336,Cheetah Hunt,True,10
+2026-09-04T22:40:23+00:00,Egypt,6335,Cobra's Curse,True,5
+2026-09-04T22:40:23+00:00,Egypt,6334,Montu,True,5
+2026-09-04T22:40:23+00:00,Egypt,12538,Skyride (Egypt Station),False,0
+2026-09-04T22:40:23+00:00,Jungala,12539,Skyride (Jungala Station),False,0
+2026-09-04T22:40:23+00:00,Morocco,1521,Gwazi Gliders,False,0
+2026-09-04T22:40:23+00:00,Morocco,10516,Iron Gwazi,True,5
+2026-09-04T22:40:23+00:00,Nairobi,1530,Serengeti Express (Nairobi Station),False,0
+2026-09-04T22:40:23+00:00,Pantopia,6331,Falcon's Fury,True,0
+2026-09-04T22:40:23+00:00,Pantopia,10529,Grand Caravan Carousel,False,0
+2026-09-04T22:40:23+00:00,Pantopia,14516,Phoenix Rising,True,5
+2026-09-04T22:40:23+00:00,Pantopia,11593,Serengeti Flyer,True,5
+2026-09-04T22:40:23+00:00,Safari of Fun,1519,Air Grover,True,5
+2026-09-04T22:40:23+00:00,Safari of Fun,1514,Big Bird's Whirly Birdie,False,0
+2026-09-04T22:40:23+00:00,Safari of Fun,1513,Elmo's Safari Go-Round,False,0
+2026-09-04T22:40:23+00:00,Safari of Fun,1516,Snuffy's Elephant Romp,False,0
+2026-09-04T22:40:23+00:00,Safari of Fun,1524,The Count's Zambezi Rally,False,0
+2026-09-04T22:40:23+00:00,Safari of Fun,1528,Zoe-Patra's Hippos of the Nile,False,0
+2026-09-04T22:40:23+00:00,Stanleyville,1532,Serengeti Express (Stanleyville Station),False,0
+2026-09-04T22:40:23+00:00,Stanleyville,7310,Tigris,True,5
+2026-09-04T22:40:23+00:00,,17525,SheiKra,True,5
